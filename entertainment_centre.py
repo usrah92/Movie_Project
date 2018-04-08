@@ -65,3 +65,4 @@ movies = [man_infinity,
 
 # Call function to create movie website (created inside fresh_tomatoes module.)
 fresh_tomatoes.open_movies_page(movies)
+
