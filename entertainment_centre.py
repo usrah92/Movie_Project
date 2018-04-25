@@ -63,6 +63,5 @@ movies = [man_infinity,
           Inception,
           Bhajrangi, interstellar]
 
-# Call function to create movie website (created inside fresh_tomatoes module.)
+# Call function(created inside fresh_tomatoes module) to create movie website.
 fresh_tomatoes.open_movies_page(movies)
-
