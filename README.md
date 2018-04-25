@@ -12,29 +12,12 @@ entertainment_centre.py
 media.py
 fresh_tomatoes.py
 ```
-media.py file contain the _class_ created (in this case, **class Movie**). The codes were as follow (Within ``` media.py ```):
+media.py file contain the _class_ created (in this case, **class Movie**). 
 
-```
- def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
-            self.title = movie_title
-            self.storyline = movie_storyline
-            self.poster_image_url = poster_image
-            self.trailer_youtube_url = trailer_youtube
-```
 
-If the user wants to store/update a new movies informations, create a new instance within entertainment_centre.py (The code below set as an example):
+If the user wants to store/update a new movies informations, create a new instance within entertainment_centre.py. 
 
-```
-Man_infinity = media.Movie("The Man Who Knew Infinity",
-                           "The biographical film about Ramanujan, an extra-ordinary mathematician who made a great breakthrough in pure    Mathematics.",
-                           "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Man_Who_Knew_Infinity_%28film%29.jpg",
-                           "https://www.youtube.com/watch?v=oXGm9Vlfx4w")
-```
-Then, group all the instances (movies) in a variable. The codes below set as the example:
-```
-movies = [man_infinity,Bilal_animated,Sang_pencerah,Inception,Bhajrangi,interstellar]
-```
-For the fresh_tomatoes.py, it contains the code to build a websites. Therefore, this module was imported into entertainment_centre.py and the function ``` fresh_tomatoes.open_movies_page(movies) ``` was called in entertainment_centre.py.
+For the fresh_tomatoes.py, it contains the code to build a websites. Therefore, this module was imported into entertainment_centre.py.
 
 ## How to run Movie_Project
 
