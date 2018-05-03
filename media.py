@@ -7,6 +7,7 @@ import webbrowser
 class Movie():
 
     # Create __init__ funtions to store the attributes for movies.
+    # The attributes stored: title, storyline, poster image and trailer video.
     def __init__(self,
                  movie_title,
                  movie_storyline,
